@@ -162,7 +162,10 @@
         <type>AutoNumber</type>
     </nameField>
     <pluralLabel>Results</pluralLabel>
-    <searchLayouts></searchLayouts>
+    <searchLayouts>
+        <searchResultsAdditionalFields>Examinee__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Exam__c</searchResultsAdditionalFields>
+    </searchLayouts>
     <sharingModel>ControlledByParent</sharingModel>
     <visibility>Public</visibility>
 </CustomObject>
