@@ -74,6 +74,14 @@
         <style>CustomLinks</style>
     </layoutSections>
     <relatedLists>
+        <fields>NAME</fields>
+        <fields>Examinee__c</fields>
+        <fields>Date_of_Exam__c</fields>
+        <fields>Marks_Obtained__c</fields>
+        <fields>Remark__c</fields>
+        <relatedList>Result__c.Exam__c</relatedList>
+    </relatedLists>
+    <relatedLists>
         <fields>TASK.SUBJECT</fields>
         <fields>TASK.WHO_NAME</fields>
         <fields>ACTIVITY.TASK</fields>
