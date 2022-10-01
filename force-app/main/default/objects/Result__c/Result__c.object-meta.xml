@@ -163,6 +163,14 @@
     </nameField>
     <pluralLabel>Results</pluralLabel>
     <searchLayouts>
+        <excludedStandardButtons>New</excludedStandardButtons>
+        <excludedStandardButtons>OpenListInQuip</excludedStandardButtons>
+        <excludedStandardButtons>NewFromDocument</excludedStandardButtons>
+        <excludedStandardButtons>PrintableListView</excludedStandardButtons>
+        <excludedStandardButtons>ChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Import</excludedStandardButtons>
+        <excludedStandardButtons>MassChangeOwner</excludedStandardButtons>
+        <excludedStandardButtons>Accept</excludedStandardButtons>
         <searchResultsAdditionalFields>Examinee__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>Exam__c</searchResultsAdditionalFields>
     </searchLayouts>
