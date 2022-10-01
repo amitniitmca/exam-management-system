@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <logo>exam_manager_icon</logo>
+        <logoVersion>1</logoVersion>
+        <shouldOverrideOrgTheme>true</shouldOverrideOrgTheme>
+    </brand>
+    <description>This app is used for managing exams by the examiner.</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>true</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <label>Exam Manager</label>
+    <navType>Standard</navType>
+    <tabs>Subject__c</tabs>
+    <tabs>Exam__c</tabs>
+    <tabs>Question__c</tabs>
+    <tabs>Result__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Exam_Manager_UtilityBar</utilityBar>
+</CustomApplication>
